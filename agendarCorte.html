@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-nav">
+            <div class="site-title">
+                <h1>HelpBarber</h1>
+                <p class="subtitle">Venha Cortar Conosco</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cortes.html" class="current-page">Cortes</a></li>
+                    <li><a href="time.html">Time</a></li>
+                    <li><a href="sobre.html">Sobre-Nós</a></li>
+                    <li><a href="agendarCorte.html">agendar-corte</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main class="contato">
+        <h1>Agende seu horário</h1>
+        <div class="flex-container">
+            <div class="flex-item-left">
+            <div class="flex-item-right">
+                <form action="">
+                    <input type="text" id="seunome" placeholder="Seu Nome">
+                    <input type="text" id="seubrenome" placeholder="Seu sobrenome">
+                    <input type="text" class="telefone form-control field" name="telefone" placeholder="(00) 00000-0000" />
+                    <input type="text" name="cpf" class="cpf field" maxlength="11" required="required" placeholder="Cpf" />
+                    <input type="text" name="Email" id="Email" placeholder="Email">
+                    <input type="text" name="sobre" id="sobre" placeholder="Sobre">
+                    <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+                    <button type="button">Enviar</button>
+                </form>
+            </div>
+        </div>
+        
+    </main>
+    <footer class="footer">
+   
+                <h4>Estamos Localizados em</h4>
+                <p>Ponta da Praia</p>
+                <p>Santos, São Paulo</p>
+                <h4>Telefone</h4>
+                <p>(13)4098-8922</p>
+                <h4>Email</h4>
+                <p>agenda@helpbarber.com</p>
+            </div>
+        <h3><span id="demo">&copy;</span><a href="#"> HelpBarber.com</a></h3>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

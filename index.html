@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        #home {
+            background: url('img/andre-reis-1_DAlXy0wng-unsplash.jpg') no-repeat center center fixed;
+            height: 85vh;
+            position: relative;
+            width: 100%;
+            background-size: cover;
+        }
+    </style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="scripts/all-plugins.js"></script>
+  <script type="text/javascript" src="scripts/plugins-activate.js"></script>
+</head>
+<script type="text/javascript">
+$(document).ready(function(){
+     $('.telefone').mask("(99) 99999-9999");
+});
+</script>
+
+<body>
+    <header class="header">
+        <div class="container container-nav">
+            <div class="site-title">
+                <h1>HelpBarber</h1>
+                <p class="subtitle">Venha cortar conosco</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="current-page">Home</a></li>
+                    <li><a href="cortes.html">Cortes</a></li>
+                    <li><a href="time.html">Time</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="agendarCorte.html">agendar-corte</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="home">
+            <div class="overlay">
+                <div class="landing-text">
+                    <h3>Corte conosco </h3>
+                    <h1>HelpBarber</h1>
+                    <hr id="hr-main">
+                    <a href="contato.html" class="button btn-hire">Agendamento</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
